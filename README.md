@@ -2,7 +2,7 @@
 
 This is an example of a simple HTML page where, when the user clicks the "add note" button, a modal window with a form appears.
 
-Take a look through the HTML, CSS, and JavaScript files and try to parse how this works. Look up CSS properties you do not know and take a look at the documentation for parts of the JavaScript, if you are feeling bold.
+Clone this repo and take a look through the HTML, CSS, and JavaScript files and try to parse how this works. Look up CSS properties you do not know and take a look at the documentation for parts of the JavaScript, if you are feeling bold.
 
 Then you'll meet with an instructor to walk through it together.
 
