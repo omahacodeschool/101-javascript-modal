@@ -1,1 +1,76 @@
-/* Replace me with your styles! */
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+}
+
+.modal-background {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: black;
+	opacity: .5;
+}
+
+.modal-body {
+	position: absolute;
+	left: 375px;
+	top: 200px;
+	z-index: 100;
+	background-color: white;
+	width: 40%;
+	border-radius: 10px;
+}
+
+.modal__form-content {
+	padding: 12px 12px 12px 12px;
+}
+
+.modal__form-content-two {
+	padding-top: 12px;
+}
+
+.modal__header{
+	padding: 12px 12px 0px 12px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	border-bottom: 1px solid lightgrey;
+}
+
+.close-x {
+	color: #e0e0e0;
+}
+
+.modal__header h1 {
+	margin: 0;
+	padding-bottom: 12px;
+}
+
+.textarea {
+	width: 99%;
+	margin-top: 5px;
+	padding: 10px 0px;
+	border-radius: 3px;
+	border: 1px solid lightgrey;
+}
+
+.modal__footer{
+	border-top: 1px solid lightgrey;
+	background-color: #e0e0e0;
+	display: flex;
+	justify-content: flex-end;
+	padding: 12px 12px 12px 12px;
+}
+
+.modal__footer input:first-child {
+	margin-right: 5px;
+}
+
+.modal-hide {
+	display: none;
+}
