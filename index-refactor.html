@@ -6,17 +6,17 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
 
-  <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="script-refactor.js"></script>
 </head>
 <body>
 
 	<h1>Demo Application</h1>
 
-	<button id="add-note">Add note</button>
+	<button class="modal-link" data-modal-content="add-note">Add note</button>
 
-	<button id="modal-two">A Second Modal</button>
+	<button class="modal-link" data-modal-content="modal-two">A Second Modal</button>
 
-	<button id="modal-three">A Third modal</button>
+	<button class="modal-link" data-modal-content="modal-three">A Third modal</button>
 
 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -97,7 +97,7 @@
 	<div class="modal modal-background">
 	</div>
 
-	<div class="modal add-note modal-body">
+	<div class="modal modal-body" id="add-note">
 		<div class="modal__header">
 			<h1>Add note</h1>
 			<i class="fa fa-times close-x"></i>
@@ -117,7 +117,7 @@
 		</form>
 	</div>
 
-	<div class="modal modal-two modal-body">
+	<div class="modal modal-body" id="modal-two">
 		<div class="modal__header">
 			<h1>Second modal</h1>
 			<i class="fa fa-times close-x"></i>
@@ -137,7 +137,7 @@
 		</form>
 	</div>
 
-	<div class="modal modal-three modal-body">
+	<div class="modal modal-body" id="modal-three">
 		<div class="modal__header">
 			<h1>Third Modal</h1>
 			<i class="fa fa-times close-x"></i>

@@ -2,12 +2,39 @@ window.addEventListener("load", function() {
 	var addNoteButton = document.getElementById("add-note");
 	addNoteButton.addEventListener("click", displayModal);
 
+	var secondModal = document.getElementById("modal-two");
+	secondModal.addEventListener("click", displayModalTwo);
+
+	var thirdModal = document.getElementById("modal-three");
+	thirdModal.addEventListener("click", displayModalThree);
+
 	function displayModal() {
-		var modalElements = document.getElementsByClassName("modal");
-		console.log(modalElements.length);
+		var background = document.getElementsByClassName("modal-background");
+		background[0].style.display = "block";
+
+		var modalElements = document.getElementsByClassName("add-note");
 		for (var i = 0; i < modalElements.length; i++) {
-			console.log("Starting on index " + i + " of modalElements");
-			modalElements[i].classList.toggle("modal-hide");
+			modalElements[i].style.display = "block";
+		}
+	}
+
+	function displayModalTwo() {
+		var background = document.getElementsByClassName("modal-background");
+		background[0].style.display = "block";
+
+		var modalElements = document.getElementsByClassName("modal-two");
+		for (var i = 0; i < modalElements.length; i++) {
+			modalElements[i].style.display = "block";
+		}
+	}
+
+	function displayModalThree() {
+		var background = document.getElementsByClassName("modal-background");
+		background[0].style.display = "block";
+		
+		var modalElements = document.getElementsByClassName("modal-three");
+		for (var i = 0; i < modalElements.length; i++) {
+			modalElements[i].style.display = "block";
 		}
 	}
 });
