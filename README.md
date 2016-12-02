@@ -2,9 +2,13 @@
 
 This is an example of a simple HTML page where, when the user clicks the "add note" button, a modal window with a form appears.
 
-Fork and clone this repo and take a look through the **index.html**, **style.css**, and **script.js** files and try to parse how this works. Look up CSS properties you do not know and take a look at the documentation for parts of the JavaScript, if you are feeling bold.
+Fork and clone this repo and take a look through the **index.html**, **style.css**, and **script.js** files and try to parse how this works. 
 
-## Try to implement a working version of the modal pop up on your own
+Look up CSS properties you do not know and take a look at the documentation for parts of the JavaScript, if you are feeling bold.
+
+## Try to implement a working version of _a single_ modal pop up on your own
+
+Do this out of the context of any other application you've built. You should just need a HTML file, CSS file, and JavaScript file.
 
 Helpful steps to look up include:
 - JavaScript click events
